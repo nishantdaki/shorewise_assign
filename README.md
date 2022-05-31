@@ -30,6 +30,23 @@ inputfiles/Folder:- input.png
 
 OpenCV is the huge open-source library for the computer vision, machine learning, and image processing and now it plays a major role in real-time operation which is very important in today’s systems. By using it, one can process images and videos to identify objects, faces, or even handwriting of a human. When it integrated with various libraries, such as NumPy, python is capable of processing the OpenCV array structure for analysis. To Identify image pattern and its various features we use vector space and perform mathematical operations on these features.
 
+OpenCV Applications:-
+1. face recognition
+2. Automated inspection and surveillance
+3. number of people – count (foot traffic in a mall, etc)
+4. Vehicle counting on highways along with their speeds
+5. Interactive art installations
+6. Anamoly (defect) detection in the manufacturing process (the odd defective products)
+7. Street view image stitching
+8. Video/image search and retrieval
+9. Robot and driver-less car navigation and control
+10. object recognition
+11. Medical image analysis
+12. Movies – 3D structure from motion
+13. TV Channels advertisement recognition
+
+Here I have given some examples of Image processing using OpenCV.
+
 Question 3: What is pandas? Write down a code to join two dataframes.
 
 Answer:
