@@ -3,7 +3,10 @@
 Answers & Explainations:
 
 Question 1 : Write a code to add the mailing feature in the Flask Application?
+
 Answer:
+
+Files/Folder:- FlaskApp
 
 To complete this Feature, I have created Simple Flask Application which sends one email on running the server.
 I have User Flask and Flask-Mail packages.
@@ -22,11 +25,17 @@ Question 2: What is OpenCV? Give some examples of OpenCV usage.
 
 Answer:
 
+Files/Folder:- opencvsw.py
+inputfiles/Folder:- input.png
+
 OpenCV is the huge open-source library for the computer vision, machine learning, and image processing and now it plays a major role in real-time operation which is very important in today’s systems. By using it, one can process images and videos to identify objects, faces, or even handwriting of a human. When it integrated with various libraries, such as NumPy, python is capable of processing the OpenCV array structure for analysis. To Identify image pattern and its various features we use vector space and perform mathematical operations on these features.
 
 Question 3: What is pandas? Write down a code to join two dataframes.
 
 Answer:
+
+Files/Folder:- joinfw.py
+inputfiles/folder:- dat
 
 Pandas is a software library written for the Python programming language that is used mainly for data manipulation and analysis.
 
@@ -34,17 +43,21 @@ In a nutshell, Pandas is like excel for Python, with tables (which in pandas are
 
 Pandas relies on Numpy and Matplotlib, two of the other main libraries that should be present in the toolkit of any Data Scientist, and as we will see there are many pandas functions which are naturally derived from them.
 
-Here i have written one Python Program Which takes Two .dat Files and create DataFrame and joins them and Write them in One Excel File.
+Here i have written one Python Program Which takes Two .dat Files and create DataFrame and joins them and print.
 
 .dat files
 
 Data.dat
 Data1.dat
 
-as output i have created one Excel File (output.xlsx)
+
 
 
 Question 4: Write python code to establish connection with any database (SQL/MongoDB).
+
+Answer:
+
+Files/Folder:- dbcon.py
 
 I have written one Python program to establish connection with PosgreSQL database.
 
@@ -57,6 +70,11 @@ Question 5: Create a simple POST API in python using any python framework of you
                 - Saves this information in Excel file
                 - Returns=&gt; if success =&gt; {“status”:”successful”}
                 Else =&gt; {“status”:”failed”}
+
+Answer:
+
+Files/Folder:- djangoapi
+output:- data.xlsx
            
 I have created one Web App in Django Rest Framework with JWT Authentication. I have implemented one endpoint ("http://127.0.0.1:8000/account/api/insert_data") where you can send data via payload like below:-
 
