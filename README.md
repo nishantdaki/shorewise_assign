@@ -22,6 +22,8 @@ Question 2: What is OpenCV? Give some examples of OpenCV usage.
 
 Answer:
 
+OpenCV is the huge open-source library for the computer vision, machine learning, and image processing and now it plays a major role in real-time operation which is very important in today’s systems. By using it, one can process images and videos to identify objects, faces, or even handwriting of a human. When it integrated with various libraries, such as NumPy, python is capable of processing the OpenCV array structure for analysis. To Identify image pattern and its various features we use vector space and perform mathematical operations on these features.
+
 Question 3: What is pandas? Write down a code to join two dataframes.
 
 Answer:
